@@ -1,6 +1,8 @@
+#!/bin/bash
 count=0
 selection=0
 
+cd datos/archive
 for d in *; do
     echo $d
     for file in "$d"/*; do
