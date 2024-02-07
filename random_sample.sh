@@ -3,6 +3,8 @@ count=0
 selection=0
 
 cd datos/archive
+pwd
+
 for d in *; do
     echo $d
     for file in "$d"/*; do
